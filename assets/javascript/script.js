@@ -9,7 +9,6 @@ let player;
 let computer;
 
 //Loading player and computer choice images when page loads
-
 window.onload = function () {
     for (let i = 0; i < 5; i++) {
         let choice = document.createElement("img");
@@ -136,10 +135,31 @@ function selectChoice() {
                 result.innerHTML = 'You Lose! Lizard Poisons Spock!';
             }
         }
-
     }
-
 }
+
+/*
+Checking for overall game winner
+First to 5 wins
+*/
+document.addEventListener("click", function () {
+    if (parseInt(playerScore.innerText) >= 5) {
+        alert("You won!Click OK to play again")
+        playerScore.innerText = 0;
+        computerScore.innerText = 0;
+        result.innerText = "Ready!";
+        choices.createElement('img');
+        choices.src = "assets/images/logo-ready.png";
+    }
+    else if (parseInt(computerScore.innerText) >= 5) {
+        alert("Computer won!Click OK to play again")
+        playerScore.innerText = 0;
+        computerScore.innerText = 0;
+        result.innerText = "Ready!";
+        choices.createElement('img');
+        choices.src = "assets/images/logo-ready.png";
+    }
+})
 
 //Rules
 button.onclick = function () {
