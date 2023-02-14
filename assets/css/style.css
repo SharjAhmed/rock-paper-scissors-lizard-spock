@@ -143,8 +143,113 @@ h1 {
 }
 
 /* Media Queries for Smaller Screens */
-@media screen and (max-width: 1280px) {}
+@media screen and (max-width: 1280px) {
 
-@media screen and (max-width: 768px) {}
+    /* Header */
+    h1 {
+        font-size: 280%;
+    }
 
-@media screen and (max-width: 600px) {}
+    /* Game Area */
+    h2 {
+        margin-top: 3%;
+    }
+
+    /* Rules Area */
+    .rules-content {
+        width: 60%;
+        font-size: 185%;
+        margin: 4% auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Header */
+    h1 {
+        font-size: 170%;
+    }
+
+    /* Game Area */
+    h2 {
+        margin-top: 11%;
+    }
+
+    .game-area {
+        margin: 10% 3%;
+    }
+
+    /* Rules Area */
+    #button {
+        margin: 12% 0;
+    }
+
+    .rules-content {
+        width: 75%;
+        font-size: 150%;
+        margin: 25% auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    /* Header */
+    h1 {
+        font-size: 85%;
+    }
+
+    /*Rules Area */
+    .rules-content {
+        width: 81%;
+        margin: 45% auto;
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    /* Header */
+    h1 {
+        font-size: 70%;
+        margin-top: 6%;
+    }
+
+    /* Game Area */
+    #choices img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .game-area {
+        margin: 4% 10%;
+    }
+
+    #player-choice {
+        width: 75px;
+        height: 75px;
+    }
+
+    #computer-choice {
+        width: 75px;
+        height: 75px;
+    }
+
+    .name {
+        font-size: 70%;
+    }
+
+    #result {
+        font-size: 100%;
+    }
+
+    /*Rules Area */
+    #button {
+        margin: 5% 0;
+    }
+
+    .rules-content {
+        width: 65%;
+        margin: 20% auto;
+        font-size: 70%;
+    }
+}

@@ -148,20 +148,24 @@ document.addEventListener("click", function () {
         playerScore.innerText = 0;
         computerScore.innerText = 0;
         result.innerText = "Ready!";
-        choices.createElement('img');
+    /*    choices.createElement('img');
         choices.src = "assets/images/logo-ready.png";
+    */
     }
     else if (parseInt(computerScore.innerText) >= 5) {
         alert("Computer won!Click OK to play again")
         playerScore.innerText = 0;
         computerScore.innerText = 0;
         result.innerText = "Ready!";
-        choices.createElement('img');
+    /*    choices.createElement('img');
         choices.src = "assets/images/logo-ready.png";
+    */
     }
 })
 
-//Rules
+/*Rules
+To load upon button click
+*/
 button.onclick = function () {
     rules.style.display = "block";
 };
