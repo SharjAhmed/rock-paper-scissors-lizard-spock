@@ -144,24 +144,21 @@ First to 5 wins
 */
 document.addEventListener("click", function () {
     if (parseInt(playerScore.innerText) >= 5) {
-        alert("You won!Click OK to play again")
-        playerScore.innerText = 0;
-        computerScore.innerText = 0;
-        result.innerText = "Ready!";
-    /*    choices.createElement('img');
-        choices.src = "assets/images/logo-ready.png";
-    */
+        winner("You")
     }
     else if (parseInt(computerScore.innerText) >= 5) {
-        alert("Computer won!Click OK to play again")
-        playerScore.innerText = 0;
-        computerScore.innerText = 0;
-        result.innerText = "Ready!";
-    /*    choices.createElement('img');
-        choices.src = "assets/images/logo-ready.png";
-    */
+        winner("Computer")
     }
 })
+
+function winner(who) {
+    alert(`${who} won! Click OK to play again`)
+    document.getElementById("player-choice").src = `assets/images/logo-ready.png`;
+    document.getElementById("computer-choice").src = `assets/images/logo-ready.png`;
+    playerScore.innerText = 0;
+    computerScore.innerText = 0;
+    result.innerText = "Ready!";
+}
 
 /*Rules
 To load upon button click
