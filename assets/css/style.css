@@ -168,6 +168,7 @@ h1 {
     /* Header */
     h1 {
         font-size: 170%;
+        margin: 5% 0;
     }
 
     /* Game Area */
@@ -221,7 +222,7 @@ h1 {
     }
 
     .game-area {
-        margin: 4% 10%;
+        margin: 4% 5%;
     }
 
     #player-choice {
