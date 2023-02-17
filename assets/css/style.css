@@ -36,9 +36,13 @@ h1 {
 }
 
 /* Game Area */
+h2 {
+    margin-top: 5%;
+}
+
 #choices {
-    margin: 0 auto;
     padding-top: 10px;
+    margin-bottom: 3%;
 }
 
 #choices img {
@@ -155,6 +159,10 @@ h1 {
         margin-top: 3%;
     }
 
+    .game-area {
+        margin: 0 3%;
+    }
+
     /* Rules Area */
     .rules-content {
         width: 60%;
@@ -177,16 +185,16 @@ h1 {
     }
 
     .game-area {
-        margin: 10% 3%;
+        margin: 10% 10%;
     }
 
     /* Rules Area */
     #button {
-        margin: 12% 0;
+        margin: 11% 0;
     }
 
     .rules-content {
-        width: 75%;
+        width: 85%;
         font-size: 150%;
         margin: 25% auto;
     }
@@ -216,6 +224,10 @@ h1 {
     }
 
     /* Game Area */
+    h2 {
+        font-size: 100%;
+    }
+
     #choices img {
         width: 50px;
         height: 50px;
@@ -246,6 +258,7 @@ h1 {
     /*Rules Area */
     #button {
         margin: 4% 0;
+        padding: 10px;
     }
 
     .rules-content {
