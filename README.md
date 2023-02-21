@@ -1,5 +1,13 @@
 # Rock Paper Scissors Lizard Spock
 
+Rock Paper Scissors Lizard Spock, like its well known and loved basic version - Rock Paper Scissors, is a classic game of chance!
+
+The two new options - Lizard and Spock - add a whole new dimension to the gameplay. Play it to have some fun, or to help you make that important decision!
+
+Kept bright and light hearted, this game is for all ages to enjoy and is super simple to play! The rules are easily accessed at the bottom of the page and the score is also easy to keep on top of in the middle of the page. 
+
+Can you beat the computer to 5 points? Be the first to choose your weapon and find out! 
+
 ![Alt text](assets/images/responsive.png)
 
 ## Table of contents
@@ -16,6 +24,7 @@
 * Page Design
     - I have given the page a gray background with white writing to make the page easy to read.
     - I also wanted to add some color to the page so it doesn't look too boring so I decided to use color for the icon images.
+    - I decided to keep the page quite simple, so it doesn't look too busy, which I personally prefer.
 
 ![Alt text](assets/images/page.png)
 
@@ -25,24 +34,39 @@
 ![Alt text](assets/images/title-area.png)
 
 * Choice Area
-    - Sticking with the colored theme - I have put the icons next to each other for the player to select, with a border appearing when the mouse is hovering over the icon - this makes it easy for the player to see which option is being selected.
+    - I decided to stick with the colored theme to make the site consistant.
+    - In keeping with the simple page design, the game choice icons are laid out horizontally.
+    - A border appears over the icon when the mouse is hovering over to make it easy for the player to see which option is being selected.
 
 ![Alt text](assets/images/choice-area.png)
 
+![Alt text](assets/images/choice-area-hover.png)
+
 * Game Area
-    - 
+    - The game starts with a "ready" image, to make it clear to the player that we are ready to start the game.
+    - The image updates as the player chooses, to the players' chosen weapon and the randomly selected, computer choice.
+    - This updates with each click.
+    - Once the game is over (when either the player or computer reaches a score of 5), the images reset to the "ready" image.
 
 ![Alt text](assets/images/game-area.png)
 
 * Results Area
-    - 
+    - Continuing the "ready" theme at the beginning of the game, the results banner starts with a "ready" message.
+    - I wanted the results area to stand out on the page, so I decided to give the banner a gold color, which contrasts to the gray background.
+    - As the player chooses, the message in the banner changes to inform the player of the outcome of that round - (if player chooses rock, and computer chooses paper - "You Lose! Paper Covers Rock!" will show etc.)
+    - I made this decision as it keeps the game more engaging, as if the player is like myself, and doesn't know the rules by heart, this makes it easy to understand who won the round and why, without having to click on the rules button frequently to check.
 
 ![Alt text](assets/images/results-area.png)
 
 * Rules Area
-    - 
+    - I decided to place the rules area hidden until the rules button is clicked.
+    - This keeps in theme with the simple layout of the page, as I found having the rules listed out visible perminantly made the page look a lot messier.
+    - Rules appear once the rules button is clicked on.
+    - Once again, to keep things simple for the player, I have decided to list the rules out in order of rock -> paper -> scissors -> lizard -> spock.
+    - I have also clarified the criteria on how to win the game - first to 5 points wins!
 
 ![Alt text](assets/images/rules-button.png)
+
 ![Alt text](assets/images/rules-content.png)
 
 ## Technologies
@@ -56,7 +80,7 @@ Project is created with:
 * I confirm that the pages are responsive and functions correctly on all standard screen sizes using devtools.
 * I confirm that all text on the site is easily readable and easy to understand.
 * I confirm the game plays as it should:
-    * User choice is chosen as per user selection and computer is chosen randomly. 
+    * Player choice is chosen as per player selection and computer is chosen randomly. 
     * Game resets after either the player or computer reaches a score of 5.
 
 ## Roadblocks and difficulties
@@ -72,8 +96,8 @@ Project is created with:
         - Images would stay as previous choice when game reset instead of going back to the starting "Ready" image.
         - After meeting with my mentor, Jubril Akolade, we discovered I was overcomplicating the JS and he helped me resolve the issue by using the same code as the page load (Thanks Jubril!)
     - ### No alt attributes for images
-        - Lighthouse results were not good due to images not having alt attributes
-        - After researching, found out how to add an alt attribute to an image created in JS.
+        - Lighthouse and JSHint results were not good due to images not having alt attributes.
+        - After researching, found out how to add an alt attribute to an image created in JS (via [stackoverflow.com](https://stackoverflow.com/questions/15471688/adding-alt-attribute-to-image-in-javascript)).
 - ### Unfixed bugs
     - No unfixed bugs
 
@@ -83,11 +107,11 @@ Project is created with:
 - ### CSS
     - No errors found when passing through the official (Jigsaw) validator.
 - ### JavaScript
-    - No major errors found when passing through JSHint.
+    - No errors found when passing through JSHint.
 - ### Accessibility
     - I can confirm that all text, fonts and colours are easily readable and accessible by running it through Lighthouse in devtools.
 
-![Alt Text](assets/images/lighthouse.jpg) 
+![Alt Text](assets/images/lighthouse.png) 
 
 ## Deployment
 
