@@ -36,7 +36,6 @@ function selectChoice() {
     let parsedcomputerScore = parseInt(computerScore.innerText);
     let result = document.getElementById('result');
 
-
     //Result Check
     if (player == computer) {
         result.innerHTML = 'Draw!';
