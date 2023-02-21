@@ -86,6 +86,7 @@ Project is created with:
 ## Roadblocks and difficulties
 
 * Initially wanted to add a gradient background but could not get it to fit the full screen. Background would appear tiled.
+* I wanted the colors for the choice images to invert when hovering, but had to make a border appear instead, as it did not work as I wanted it to.
 
 ## Bugs
 - ### Solved bugs
