@@ -16,6 +16,7 @@ window.onload = function () {
         choice.src = "assets/images/" + choices[i] + ".png";
         choice.addEventListener("click", selectChoice);
         document.getElementById("choices").append(choice);
+        choice.setAttribute("alt","choices[i]");
         console.log(i);
     }
 };
@@ -86,7 +87,7 @@ function selectChoice() {
             }
             else if (computer == "lizard") {
                 playerScore.innerText = ++parsedplayerScore;
-                result.innerHTML = 'You Win! Lizard Eats Paper!';
+                result.innerHTML = 'You Win! Scissors Decapitates Lizard!';
             }
             else if (computer == "rock") {
                 computerScore.innerText = ++parsedcomputerScore;
@@ -144,15 +145,15 @@ First to 5 wins
 */
 document.addEventListener("click", function () {
     if (parseInt(playerScore.innerText) >= 5) {
-        winner("You")
+        winner("You");
     }
     else if (parseInt(computerScore.innerText) >= 5) {
-        winner("Computer")
+        winner("Computer");
     }
-})
+});
 
 function winner(who) {
-    alert(`${who} won! Click OK to play again`)
+    alert(`${who} won! 🥇 Click OK to play again`);
     document.getElementById("player-choice").src = `assets/images/logo-ready.png`;
     document.getElementById("computer-choice").src = `assets/images/logo-ready.png`;
     playerScore.innerText = 0;
