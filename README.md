@@ -21,9 +21,8 @@ Can you beat the computer to 5 points? Be the first to choose your weapon and fi
 * [Features](#features)
 * [Technologies](#technologies)
 * [Testing](#testing)
-* [Roadblocks and difficulties](#roadblocks-and-difficulties)
-* [Bugs](#bugs)
 * [Validator Testing](#validator-testing)
+* [Bugs](#bugs)
 * [Deployment](#deployment)
 * [Credits](#credits)
 
@@ -86,17 +85,19 @@ Can you beat the computer to 5 points? Be the first to choose your weapon and fi
 ![Alt text](assets/images/page.png)
 
 * Wireframes
-    - Desktop Wireframe
+    <details><summary>Desktop Wireframe</summary>
+    <img src="assets/images/wireframe.png">
+    </details>
 
-    ![Alt text](assets/images/wireframe.png)
+    <details><summary>Tablet Wireframe</summary>
+    <img src="assets/images/wireframe-tablet.png">
+    </details>
 
-    - Tablet Wireframe
+    <details><summary>Mobile Wireframe</summary>
+    <img src="assets/images/wireframe-mobile.png">
+    </details>
 
-    ![Alt text](assets/images/wireframe-tablet.png)
-
-    - Mobile Wireframe
-    
-    ![Alt text](assets/images/wireframe-mobile.png)
+        
    
 ## Features
 * Title Area
@@ -142,9 +143,22 @@ Can you beat the computer to 5 points? Be the first to choose your weapon and fi
 
 ## Technologies
 The project is created with:
-* HTML
-* CSS
-* JavaScript
+* Languages
+    - HTML
+    - CSS
+    - JavaScript
+
+* Libraries Used 
+    - [Google Fonts](https://fonts.google.com/)
+        - Site font Comfortaa was taken from Google Fonts
+    - [Font Awesome](https://fontawesome.com/)
+        - All icons used were from Font Awesome
+    - [Git](https://git-scm.com/)
+        - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    - [GitHub](https://github.com/):
+        - GitHub is used to store the projects code after being pushed from Git.
+    - [Balsamiq](https://balsamiq.com/):
+        - Balsamiq was used to create the wireframes during the design process.
 
 ## Testing
 * I have tested the game in Chrome, Firefox & Edge and confirm it is working in all 3 browsers.
@@ -154,36 +168,34 @@ The project is created with:
     * Player choice is chosen as per player selection and the computer is chosen randomly. 
     * Game resets after either the player or computer reaches a score of 5.
 
-## Roadblocks and difficulties
+## Validator Testing
+- HTML
+    - No errors were found when passing through the official W3C validator.
+- CSS
+    - No errors were found when passing through the official (Jigsaw) validator.
+- JavaScript
+    - No errors found when passing through JSHint.
+- Accessibility
+    - I can confirm that all text, fonts, and colors are easily readable and accessible by running it through Lighthouse in devtools.
+- Lighthouse
+    - 
 
-* Initially wanted to add a gradient background but could not get it to fit the full screen. The background would appear tiled.
-* I wanted the colors for the choice images to invert when hovering but had to make a border appear instead, as it did not work as I wanted it to.
+![Alt Text](assets/images/lighthouse.png)
 
 ## Bugs
-- ### Solved bugs
-    - ### Styling for smaller screens
+- Solved bugs
+    - Styling for smaller screens
         - Game area was showing in a column instead of a row.
         - Updated from a grid view to inline-block which resolved the issue.
-    - ### Choice images did not reset when the game reset
+    - Choice images did not reset when the game reset
         - Images would stay as the previous choice when the game reset instead of going back to the starting "Ready" image.
         - After meeting with my mentor, Jubril Akolade, we discovered I was overcomplicating the JS and he helped me resolve the issue by using the same code as the page load (Thanks Jubril!)
-    - ### No alt attributes for images
+    - No alt attributes for images
         - Lighthouse and JSHint results were not good due to images not having alt attributes.
         - After researching, found out how to add an alt attribute to an image created in JS (via [stackoverflow.com](https://stackoverflow.com/questions/15471688/adding-alt-attribute-to-image-in-javascript)).
-- ### Unfixed bugs
+- Unfixed bugs
     - No unfixed bugs
 
-## Validator Testing
-- ### HTML
-    - No errors were found when passing through the official W3C validator.
-- ### CSS
-    - No errors were found when passing through the official (Jigsaw) validator.
-- ### JavaScript
-    - No errors found when passing through JSHint.
-- ### Accessibility
-    - I can confirm that all text, fonts, and colors are easily readable and accessible by running it through Lighthouse in devtools.
-
-![Alt Text](assets/images/lighthouse.png) 
 
 ## Deployment
 
