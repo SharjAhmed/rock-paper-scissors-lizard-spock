@@ -4,44 +4,46 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="wclassth=device-width, initial-scale=1.0"/>
-    <meta name="description" content="Rock, Paper, Scissors, Lizard, Spock"/>
-    <meta name="keywords" content="rock, paper, scissors, lizard, spock"/>
+    <meta name="viewport" content="wclassth=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rock, Paper, Scissors, Lizard, Spock" />
+    <meta name="keywords" content="rock, paper, scissors, lizard, spock" />
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet" />
 
     <!-- Favicon Links -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png"/>
-    <link rel="manifest" href="site.webmanifest"/>
-    
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+
     <!-- Sweet Alert Script -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- CSS Stylesheet Link -->
-    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <title>Rock Paper Scissors Lizard Spock</title>
 </head>
 
 <body>
     <!-- Header -->
-    <h1 id="title-area">
-        Rock <i class="fa-solid fa-hand-back-fist"></i> | Paper
-        <i class="fa-solid fa-hand"></i> | Scissors
-        <i class="fa-solid fa-hand-scissors"></i> | Lizard
-        <i class="fa-solid fa-hand-lizard"></i> | Spock
-        <i class="fa-solid fa-hand-spock"></i>
-    </h1>
+    <header>
+        <h1 id="title-area">
+            Rock <i class="fa-solid fa-hand-back-fist"></i> | Paper
+            <i class="fa-solid fa-hand"></i> | Scissors
+            <i class="fa-solid fa-hand-scissors"></i> | Lizard
+            <i class="fa-solid fa-hand-lizard"></i> | Spock
+            <i class="fa-solid fa-hand-spock"></i>
+        </h1>
+    </header>
 
     <!-- Game Area -->
     <h2>Choose Your Weapon:</h2>
     <div id="choices"></div>
-    <div>
+    <section>
         <div class="game-area">
             <h3 class="name">Player Score:</h3>
             <p id="player-score" class="name">0</p>
@@ -54,11 +56,11 @@
         </div><br>
         <br>
         <div id="result">Ready!</div>
-    </div>
+    </section>
 
     <!-- Rules Area -->
     <button id="button">Rules</button>
-    <div id="rules" class="game-rules">
+    <section id="rules" class="game-rules">
         <div class="rules-content">
             <span class="close">x</span>
             <p>Make a choice by choosing your weapon: <br>
@@ -69,23 +71,28 @@
                 <i class="fa-solid fa-hand-lizard"></i> | Spock
                 <i class="fa-solid fa-hand-spock"></i> <br>
                 <br>
-                <i class="fa-solid fa-hand-back-fist"></i> Rock crushes Scissors <i class="fa-solid fa-hand-scissors"></i> <br>
-                <i class="fa-solid fa-hand-back-fist"></i> Rock crushes Lizard <i class="fa-solid fa-hand-lizard"></i> <br>
+                <i class="fa-solid fa-hand-back-fist"></i> Rock crushes Scissors <i
+                    class="fa-solid fa-hand-scissors"></i> <br>
+                <i class="fa-solid fa-hand-back-fist"></i> Rock crushes Lizard <i class="fa-solid fa-hand-lizard"></i>
+                <br>
                 <i class="fa-solid fa-hand"></i> Paper covers Rock <i class="fa-solid fa-hand-back-fist"></i> <br>
                 <i class="fa-solid fa-hand"></i> Paper disproves Spock <i class="fa-solid fa-hand-spock"></i> <br>
                 <i class="fa-solid fa-hand-scissors"></i> Scissors cuts Paper <i class="fa-solid fa-hand"></i> <br>
-                <i class="fa-solid fa-hand-scissors"></i> Scissors decapitates Lizard <i class="fa-solid fa-hand-lizard"></i> <br>
+                <i class="fa-solid fa-hand-scissors"></i> Scissors decapitates Lizard <i
+                    class="fa-solid fa-hand-lizard"></i> <br>
                 <i class="fa-solid fa-hand-lizard"></i> Lizard eats Paper <i class="fa-solid fa-hand"></i> <br>
                 <i class="fa-solid fa-hand-lizard"></i> Lizard poisons Spock <i class="fa-solid fa-hand-spock"></i> <br>
-                <i class="fa-solid fa-hand-spock"></i> Spock vaporizes Rock <i class="fa-solid fa-hand-back-fist"></i> <br>
-                <i class="fa-solid fa-hand-spock"></i> Spock smashes Scissors <i class="fa-solid fa-hand-scissors"></i> <br>
+                <i class="fa-solid fa-hand-spock"></i> Spock vaporizes Rock <i class="fa-solid fa-hand-back-fist"></i>
+                <br>
+                <i class="fa-solid fa-hand-spock"></i> Spock smashes Scissors <i class="fa-solid fa-hand-scissors"></i>
+                <br>
                 <br>
                 Who ever wins the round gets a point<br>
                 <br>
                 First to 5 points wins!
             </p>
         </div>
-    </div>
+    </section>
 
     <!-- JavaScript Script -->
     <script src="assets/javascript/script.js"></script>

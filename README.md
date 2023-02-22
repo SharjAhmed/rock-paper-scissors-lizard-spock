@@ -1,5 +1,11 @@
 # Rock Paper Scissors Lizard Spock
 
+(Developer: Sharj Ahmed)
+
+[Live Webpage](https://sharjahmed.github.io/rock-paper-scissors-lizard-spock/)
+
+![Alt text](assets/images/responsive.png)
+
 Rock Paper Scissors Lizard Spock, like its well known and loved basic version - Rock Paper Scissors, is a classic game of chance!
 
 The two new options - Lizard and Spock - add a whole new dimension to the gameplay. Play it to have some fun, or to help you make that important decision!
@@ -8,9 +14,10 @@ Kept bright and light hearted, this game is for all ages to enjoy and is super s
 
 Can you beat the computer to 5 points? Be the first to choose your weapon and find out! 
 
-![Alt text](assets/images/responsive.png)
-
 ## Table of contents
+* [Project Goals](#project-goals)
+* [User Experience](#user-experience)
+* [Design](#design)
 * [Features](#features)
 * [Technologies](#technologies)
 * [Testing](#testing)
@@ -18,7 +25,55 @@ Can you beat the computer to 5 points? Be the first to choose your weapon and fi
 * [Bugs](#bugs)
 * [Validator Testing](#validator-testing)
 * [Deployment](#deployment)
-* [Citations](#citations)
+* [Credits](#credits)
+
+## Project Goals
+* User Goals
+    - play a fun game of Rock Paper Scissors Lizard Spock.
+    - Check the rules of the game whenever they wish to.
+    - Easily choose their option to play against the computer.
+    - Keep track of the scores in the current game.
+    - Play again when player or computer reaches 5 points.
+* Site Owner Goals
+    - Make it easy for the player to understand how to play and to actually play the game.
+    - Make the scores easily visible to the player.
+    - Reset the game once player/computer reaches 5 points so the player can play again.
+    - Make the gameplay experience fun to encourage revisits to the game. 
+
+## User Experince
+* Target Audience
+    - This game is designed for anyone looking for a fun time passer.
+    - Designed to keep all ages engaged.
+* User Requrements and Expectations
+    - A simple gameplay experience
+    - The ability to choose rock, paper, scissors, lizard or spock.
+    - Scores that are easily visible when playing.
+    - An interactive and responsive page, regardless of what device they are on. 
+
+## User Stories
+* First-time Player
+    1. As a first-time player, I want to be able to easily play a game of rock, paper, scissors, lizard, spock.
+    2. As a first-time player, I want to be able to check the rules easily whenever I want.
+    3. As a first-time player, I want to be able to check the score as I am playing the game.
+    4. As a first-time player, I want to be able to be able to see what option the computer has chosen as I am playing the game.
+* Returning Player
+    1. As a returning player, I want to be able to play the game with as much enjoyment as the initial visit.
+    2. As a returning player, I want to be able to re-check the rules. 
+* Site Owner
+    1. As the site owner, I want to be able to make the page well laid out so the player can easily navigate their way round.
+    2. As the site owner, I want to be able to make it clear how to play, and how to check the rules.
+    3. As the site owner, I want to make it clear what the scores are and who has won the game. 
+
+## Design
+* Color Scheme
+    - The main decision for the color scheme chosen for the page is to make the page look appealing and clear for the player. 
+    - I used a dark background with bright icons and a gold results bar.
+* Fonts
+    - I wanted to use a font that was easy to read but also looked fun.
+    - I decided to use Comfortaa from Google Fonts
+    
+    ![Alt text](assets/images/font.png)
+
 
 ## Features
 * Page Design
@@ -117,9 +172,8 @@ Project is created with:
 ## Deployment
 
 * This site has been deloyed to Github Pages:
-    - Link can be found here - [Rock Paper Scissors Lizard Spock](https://sharjahmed.github.io/rock-paper-scissors-lizard-spock/)
     
-## Citations 
+## Credits 
 
 * My fellow students for helping me understand the JS code for the gameplay.
 * https://cssgradient.io/blog/how-to-create-a-gradient-background/ - used to try and understand how to create a gradient background - did not end up using.
@@ -127,5 +181,6 @@ Project is created with:
 * https://www.w3schools.com/js/js_comments.asp - to help me understand commenting in JS.
 * https://www.youtube.com/watch?v=AR2BOp_mfRU & https://www.youtube.com/watch?v=RwFeg0cEZvQ - to help me understand JS behind gameplay - ended up doing my game slightly different
 * https://stackoverflow.com/questions/15471688/adding-alt-attribute-to-image-in-javascript - to help me understand how to add an alt attribute to an image created in JS.
+* https://www.youtube.com/watch?v=GsFyCuD62n4 - to help me understand how to code Sweet Alerts into my site.
 * My brother for creating the game icon images and the ready image.
 *My mentor, Jubril Akolade, for all his help and patience to help me smooth out and simplify my JS.
