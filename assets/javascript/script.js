@@ -152,7 +152,7 @@ document.addEventListener("click", function () {
 });
 
 function winner(who) {
-    alert(`${who} won! 🥇 Click OK to play again`);
+    Swal.fire(`${who} won! 🥇 Click OK to play again`);
     document.getElementById("player-choice").src = `assets/images/logo-ready.png`;
     document.getElementById("computer-choice").src = `assets/images/logo-ready.png`;
     playerScore.innerText = 0;
