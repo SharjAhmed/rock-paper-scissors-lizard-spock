@@ -22,7 +22,6 @@ Can you beat the computer to 5 points? Be the first to choose your weapon and fi
 * [Technologies](#technologies)
 * [Testing](#testing)
 * [Validator Testing](#validator-testing)
-* [Bugs](#bugs)
 * [Deployment](#deployment)
 * [Credits](#credits)
 
@@ -161,28 +160,75 @@ The project is created with:
         - Balsamiq was used to create the wireframes during the design process.
 
 ## Testing
-* I have tested the game in Chrome, Firefox & Edge and confirm it is working in all 3 browsers.
-* I confirm that the pages are responsive and function correctly on all standard screen sizes using devtools.
+* Browser Testing:
+    - The site has been tested in the following browsers:
+        - Google Chrome
+        - Mozilla Firefox
+        - Microsoft Edge
+* Device Testing:
+    - I have tested the site on the following devices:
+        - Dell Latitude 7390 Laptop
+        - Apple iPad Mini 4
+        - OnePlus 10 Pro 5G
+* I confirm that the pages are responsive and function correctly on all standard screen sizes using devtools and device testing as above.
 * I confirm that all text on the site is easily readable and easy to understand.
 * I confirm the game plays as it should:
     * Player choice is chosen as per player selection and the computer is chosen randomly. 
     * Game resets after either the player or computer reaches a score of 5.
 
 ## Validator Testing
-- HTML
-    - No errors were found when passing through the official W3C validator.
-- CSS
-    - No errors were found when passing through the official (Jigsaw) validator.
-- JavaScript
-    - No errors found when passing through JSHint.
-- Accessibility
-    - I can confirm that all text, fonts, and colors are easily readable and accessible by running it through Lighthouse in devtools.
-- Lighthouse
-    - 
+* Vaildator testing was done to ensure there are no syntax errors with the code:
+<details><summary>HTML</summary>
+<p>No errors were found when passing through the official W3C validator.</p>
+<img src="assets/images/w3c.png">
+</details>
+<details><summary>CSS</summary>
+<p>No errors were found when passing through the official (Jigsaw) validator.</p>
+<img src="assets/images/jigsaw.png">
+</details>
+<details><summary>JavaScript</summary>
+<p>No errors found when passing through JSHint.</p>
+<img src="assets/images/jshint.png">
+</details>
+<details><summary>Lighthouse</summary>
+<p>Lighthouse in Google Chrome Developer Tools was used to test the performance and accessibility of the website.</p>
+    <p>Desktop</p>
+    <img src="assets/images/lighthouse.png">
+    <p>Mobile</p>
+    <img src="assets/images/lighthouse-mobile.png">
+</details>
 
-![Alt Text](assets/images/lighthouse.png)
+### Testing User Stories from User Experience Section
+1. First Time Player Goals:
+    * As a first time player, I want to be able to easily navigate the page to view the game rules.
+        - Upon loading the site, players are met with a clean page with a clear layout.
+        - It is clear to see the 'Rules' button to the bottom of the page, when clicked on, the rules appear clearly in the center of the screen.
+        - Rules are set out in an easy to read manner, with the use of icons to aid in making the rules simple to understand for first time players.
+    * As a first time player, I want to clearly see how to play the game.
+        - The game area is clearly placed in the center of the screen.
+        - The choice section, headed with "Choose You Weapon" is easy to find, with the colorful icons placed directly below.
+        - A border appears over the icon when hovering the mouse over, making it clear to the player to see which option they are selecting.
+    * As a first time player, I want to be able to see the score as I am playing the game and to see who wins the overall game.
+        - The scores area is placed directly below the choices with the Player & Computer scores labeled clearly. 
+        - The images update to show the Player & Computer choice when the Player chooses their option and the scores update based on the Player & Computer choice.
+        - Upon reaching a score of 5, either the Player or the Computer will win. When this happens the Player is met with a pop-up alert stating who has won with a medal emoji. 
+    * As a first time player, I want to be able to clearly see the outcome of the round when I'm playing.
+        - Below the scores area is the results area.
+        - The golden banner stands out clearly, and updates to show who has won and why, taking the wording from the rules.
 
-## Bugs
+2. Returning Player Goals:
+    * As a returning player, I want to remind myself of the rules.
+        - As was the player experience the first time round, the 'Rules' button is clearly visible at the bottom of the page to be able to click on and check on the game rules.
+    * As a returning player, I want to be able to replay the game.
+        - With an interactive and simple interface, the site makes it easy to enjoy the game and to pass time. Sure to engage any returning player into killing a bit of time with a few games of rock, paper, scissors, lizard, Spock!
+
+3. Site Owner:
+    * As the site owner, I want to provide a user friendly interface and enjoyable experience.
+        - The game uses a bold color pallette to really make certain areas of the game stand out. This makes the game easy to understand, which in turn provides the player with an enjoyable experience on the site.
+        - Providing a clear area for the rules will ensure that players remain engaged as they can check back at any time to refresh themselves on the rules between rounds.
+        - The results banner also provides the the explination of the outcome for each round, explaining who has won and why.
+
+### Bugs
 - Solved bugs
     - Styling for smaller screens
         - Game area was showing in a column instead of a row.
@@ -199,7 +245,28 @@ The project is created with:
 
 ## Deployment
 
-* This site has been deployed to GitHub Pages:
+* This site has been deployed to GitHub Pages, by following these steps:
+    1. Log in to GitHub and locate the GitHub Repository
+    2. In the top menu of the Repository, locate the "Settings" Button on the menu.
+    3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+    4. Under "Source", click the dropdown called "None" and select "Master Branch".
+    5. Press Save
+    6. Scroll back down through the page to locate the now published [site link](https://sharjahmed.github.io/rock-paper-scissors-lizard-spock/) in the "GitHub Pages" section.
+
+* Forking the GitHub repository:
+    1. Go to the GitHub repository
+    2. Click the fork icon in the top right-hand of the page.
+    3. Click create fork.
+
+* You can clone the repository by following these steps:
+    1. Go to the GitHub repository
+    2. Click the 'Code' button to reveal the dropdown menu.
+    3. Select either HTTPS, SSH, or Github CLI and click the copy button.
+    4. Open Git Bash
+    5. Change the current working directory to the location where you want the cloned directory to be made.
+    6. Type git clone, and then paste the URL you copied in Step 3. 
+        - git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+    7. Press Enter to create your local clone.
     
 ## Credits 
 
