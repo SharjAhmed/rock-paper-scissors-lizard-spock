@@ -75,7 +75,7 @@ Can you beat the computer to 5 points? Be the first to choose your weapon and fi
 
 * Structure
     - The page has been structured so that everything appears without the need to scroll up or down - all features appear on the one page in front of the player.
-    - This makes the page user friendly and easy to navigate. 
+    - This makes the page user-friendly and easy to navigate. 
     - The title is at the top of the page with the game choices underneath.
     - The middle of the page has the game area where the player can see their score and choice, along with the computer's score and choice.
     - The gold banner shows the result after each round.
@@ -155,7 +155,7 @@ The project is created with:
     - [Git](https://git-scm.com/)
         - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
     - [GitHub](https://github.com/):
-        - GitHub is used to store the projects code after being pushed from Git.
+        - GitHub is used to store the project's code after being pushed from Git.
     - [Balsamiq](https://balsamiq.com/):
         - Balsamiq was used to create the wireframes during the design process.
 
@@ -177,7 +177,7 @@ The project is created with:
     * Game resets after either the player or computer reaches a score of 5.
 
 ## Validator Testing
-* Vaildator testing was done to ensure there are no syntax errors with the code:
+* Validator testing was done to ensure there are no syntax errors with the code:
 <details><summary>HTML</summary>
 <p>No errors were found when passing through the official W3C validator.</p>
 <img src="assets/images/w3c.png">
@@ -199,34 +199,34 @@ The project is created with:
 </details>
 
 ### Testing User Stories from User Experience Section
-1. First Time Player Goals:
-    * As a first time player, I want to be able to easily navigate the page to view the game rules.
+1. First-Time Player Goals:
+    * As a first-time player, I want to be able to easily navigate the page to view the game rules.
         - Upon loading the site, players are met with a clean page with a clear layout.
-        - It is clear to see the 'Rules' button to the bottom of the page, when clicked on, the rules appear clearly in the center of the screen.
-        - Rules are set out in an easy to read manner, with the use of icons to aid in making the rules simple to understand for first time players.
-    * As a first time player, I want to clearly see how to play the game.
+        - It is clear to see the 'Rules' button at the bottom of the page, when clicked on, the rules appear clearly in the center of the screen.
+        - Rules are set out in an easy-to-read manner, with the use of icons to aid in making the rules simple to understand for first-time players.
+    * As a first-time player, I want to clearly see how to play the game.
         - The game area is clearly placed in the center of the screen.
         - The choice section, headed with "Choose You Weapon" is easy to find, with the colorful icons placed directly below.
         - A border appears over the icon when hovering the mouse over, making it clear to the player to see which option they are selecting.
-    * As a first time player, I want to be able to see the score as I am playing the game and to see who wins the overall game.
+    * As a first-time player, I want to be able to see the score as I am playing the game and to see who wins the overall game.
         - The scores area is placed directly below the choices with the Player & Computer scores labeled clearly. 
         - The images update to show the Player & Computer choice when the Player chooses their option and the scores update based on the Player & Computer choice.
         - Upon reaching a score of 5, either the Player or the Computer will win. When this happens the Player is met with a pop-up alert stating who has won with a medal emoji. 
-    * As a first time player, I want to be able to clearly see the outcome of the round when I'm playing.
+    * As a first-time player, I want to be able to clearly see the outcome of the round when I'm playing.
         - Below the scores area is the results area.
-        - The golden banner stands out clearly, and updates to show who has won and why, taking the wording from the rules.
+        - The golden banner stands out clearly, and updates to show who has won and why taking the wording from the rules.
 
 2. Returning Player Goals:
     * As a returning player, I want to remind myself of the rules.
-        - As was the player experience the first time round, the 'Rules' button is clearly visible at the bottom of the page to be able to click on and check on the game rules.
+        - As was the player's experience the first time around, the 'Rules' button is clearly visible at the bottom of the page to be able to click on and check on the game rules.
     * As a returning player, I want to be able to replay the game.
-        - With an interactive and simple interface, the site makes it easy to enjoy the game and to pass time. Sure to engage any returning player into killing a bit of time with a few games of rock, paper, scissors, lizard, Spock!
+        - With an interactive and simple interface, the site makes it easy to enjoy the game and pass time. Sure to engage any returning player into killing a bit of time with a few games of rock, paper, scissors, lizard, Spock!
 
 3. Site Owner:
-    * As the site owner, I want to provide a user friendly interface and enjoyable experience.
-        - The game uses a bold color pallette to really make certain areas of the game stand out. This makes the game easy to understand, which in turn provides the player with an enjoyable experience on the site.
+    * As the site owner, I want to provide a user-friendly interface and enjoyable experience.
+        - The game uses a bold color palette to really make certain areas of the game stand out. This makes the game easy to understand, which in turn provides the player with an enjoyable experience on the site.
         - Providing a clear area for the rules will ensure that players remain engaged as they can check back at any time to refresh themselves on the rules between rounds.
-        - The results banner also provides the the explination of the outcome for each round, explaining who has won and why.
+        - The results banner also explains the outcome for each round, explaining who has won and why.
 
 ### Bugs
 - Solved bugs
